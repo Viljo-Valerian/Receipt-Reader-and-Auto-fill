@@ -47,6 +47,7 @@ streamlit run app.py
 
 ## Model & Prompt
 Model: llama-3.3-70b-versatile via Groq API
+
 Prompt: "Extract recepit data. Analyze receipt text carefully.
 For merchant_name: The shop name is usually at the very top of the receipt. Even if some letters look separated due to bad printing, make your best guess by looking up well-known business name based on context clues, nearby words, or common store name patterns.
 For date: Look for any string that could be a date, like DD/MM/YYYY, DD.MM.YY, or even just 6 or more digit numbers clumped together, especially something with 26 (2026 is the current year). Make your best guess.
